@@ -2,6 +2,64 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-03-02)
+
+<section class="features">
+
+### Features
+
+-   [`cfcfb61`](https://github.com/stdlib-js/stdlib/commit/cfcfb6192307cd8c27104d37e84f87cea988637d) - **stats:** add C implementation for `stats/base/dists/hypergeometric/pmf` [(#4565)](https://github.com/stdlib-js/stdlib/pull/4565)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#3664](https://github.com/stdlib-js/stdlib/issues/3664)
+
+</section>
+
+<!-- /.issues -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`cfcfb61`](https://github.com/stdlib-js/stdlib/commit/cfcfb6192307cd8c27104d37e84f87cea988637d) - **feat(stats):** add C implementation for `stats/base/dists/hypergeometric/pmf` [(#4565)](https://github.com/stdlib-js/stdlib/pull/4565) _(by Karan Anand, Philipp Burckhardt)_
+-   [`b9bddfe`](https://github.com/stdlib-js/stdlib/commit/b9bddfefbcc4f301f5a63c9de30b2c11b13a989f) - **bench:** refactor random number generation in `stats/base/dists/hypergeometric` [(#4955)](https://github.com/stdlib-js/stdlib/pull/4955) _(by Karan Anand)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Karan Anand
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.2">
 
 ## 0.2.2 (2024-07-28)
