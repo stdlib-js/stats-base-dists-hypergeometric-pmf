@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-11-21)
 
 <section class="features">
 
@@ -34,6 +34,9 @@ This release closes the following issue:
 
 <details>
 
+-   [`9b13062`](https://github.com/stdlib-js/stdlib/commit/9b130625f0f19866a877023e9be85204636ef01e) - **docs:** fix return values in TSDoc return annotation comments _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`9c21fd2`](https://github.com/stdlib-js/stdlib/commit/9c21fd20ef8b8a6a88abb96d80ea6d8e4c5434eb) - **test:** use .strictEqual() instead of .equal() _(by Philipp Burckhardt)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`cfcfb61`](https://github.com/stdlib-js/stdlib/commit/cfcfb6192307cd8c27104d37e84f87cea988637d) - **feat(stats):** add C implementation for `stats/base/dists/hypergeometric/pmf` [(#4565)](https://github.com/stdlib-js/stdlib/pull/4565) _(by Karan Anand, Philipp Burckhardt)_
 -   [`b9bddfe`](https://github.com/stdlib-js/stdlib/commit/b9bddfefbcc4f301f5a63c9de30b2c11b13a989f) - **bench:** refactor random number generation in `stats/base/dists/hypergeometric` [(#4955)](https://github.com/stdlib-js/stdlib/pull/4955) _(by Karan Anand)_
