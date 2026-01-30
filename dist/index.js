@@ -1,47 +1,7 @@
+"use strict";var g=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var d=g(function(H,I){
+var m=require('@stdlib/math-base-assert-is-nonnegative-integer/dist'),o=require('@stdlib/math-base-assert-is-nan/dist'),b=require('@stdlib/math-base-special-exp/dist'),t=require('@stdlib/math-base-special-factorialln/dist'),h=require('@stdlib/math-base-special-max/dist'),j=require('@stdlib/math-base-special-min/dist'),y=require('@stdlib/constants-float64-pinf/dist');function k(e,r,a,i){var n,f,u,s,q;return o(e)||o(r)||o(a)||o(i)||!m(r)||!m(a)||!m(i)||r===y||a===y||a>r||i>r?NaN:(q=h(0,i+a-r),s=j(a,i),m(e)&&q<=e&&e<=s?(f=t(i)+t(a)+t(r-i)+t(r-a),n=t(r)+t(e)+t(i-e),n+=t(a-e)+t(r-a+e-i),u=f-n,b(u)):0)}I.exports=k
+});var O=g(function(J,P){
+var c=require('@stdlib/math-base-assert-is-nonnegative-integer/dist'),l=require('@stdlib/math-base-assert-is-nan/dist'),w=require('@stdlib/utils-constant-function/dist'),z=require('@stdlib/math-base-special-exp/dist'),v=require('@stdlib/math-base-special-factorialln/dist'),A=require('@stdlib/math-base-special-max/dist'),B=require('@stdlib/math-base-special-min/dist'),F=require('@stdlib/constants-float64-pinf/dist');function C(e,r,a){var i,n;if(l(e)||l(r)||l(a)||!c(e)||!c(r)||!c(a)||e===F||r===F||r>e||a>e)return w(NaN);return n=A(0,a+r-e),i=B(r,a),f;function f(u){var s,q,p;return l(u)?NaN:c(u)&&n<=u&&u<=i?(q=v(a)+v(r)+v(e-a)+v(e-r),s=v(e)+v(u)+v(a-u),s+=v(r-u)+v(e-r+u-a),p=q-s,z(p)):0}}P.exports=C
+});var D=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),R=d(),E=O();D(R,"factory",E);module.exports=R;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Hypergeometric distribution probability mass function (PMF).
-*
-* @module @stdlib/stats-base-dists-hypergeometric-pmf
-*
-* @example
-* var pmf = require( '@stdlib/stats-base-dists-hypergeometric-pmf' );
-*
-* var y = pmf( 1.0, 8, 4, 2 );
-* // returns ~0.571
-*
-* y = pmf( 2.0, 8, 4, 2 );
-* // returns ~0.214
-*
-* y = pmf( 0.0, 8, 4, 2 );
-* // returns ~0.214
-*
-* y = pmf( 1.5, 8, 4, 2 );
-* // returns 0.0
-*
-* var mypmf = pmf.factory( 30, 20, 5 );
-* y = mypmf( 4.0 );
-* // returns ~0.34
-*
-* y = mypmf( 1.0 );
-* // returns ~0.029
-*/
-
-// MODULES //
-
-var setReadOnly = require( '@stdlib/utils-define-nonenumerable-read-only-property/dist' );
-var main = require( './main.js' );
-var factory = require( './factory.js' );
-
-
-// MAIN //
-
-setReadOnly( main, 'factory', factory );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map
