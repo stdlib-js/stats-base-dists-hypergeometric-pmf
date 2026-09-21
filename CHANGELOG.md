@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-09)
+## Unreleased (2026-09-21)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`810e5f5`](https://github.com/stdlib-js/stdlib/commit/810e5f59051741b68f46e640f7db56103283f067) - avoid integer overflow [(#14972)](https://github.com/stdlib-js/stdlib/pull/14972)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`810e5f5`](https://github.com/stdlib-js/stdlib/commit/810e5f59051741b68f46e640f7db56103283f067) - **fix:** avoid integer overflow [(#14972)](https://github.com/stdlib-js/stdlib/pull/14972) _(by Philipp Burckhardt)_
 -   [`ae08f7c`](https://github.com/stdlib-js/stdlib/commit/ae08f7cb4fe984df6e38a721649aed5ad9267e67) - **test:** migrate `stats/base/dists/hypergeometric/pmf` to ULP-based assertions [(#14091)](https://github.com/stdlib-js/stdlib/pull/14091) _(by Athan Reines)_
 -   [`77a562a`](https://github.com/stdlib-js/stdlib/commit/77a562af730f04df4f25308c21fca66cb994b65a) - **bench:** refactor to use string interpolation in `stats/base/dists/hypergeometric` [(#10390)](https://github.com/stdlib-js/stdlib/pull/10390) _(by Vishal Gaikwad)_
 
@@ -25,9 +36,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 -   Vishal Gaikwad
 
 </section>
